@@ -27,10 +27,7 @@ public boolean palindrome(String word)
   if (word.equals("")){
     return true;
   }
-  String e = new String(word.substring(0, (int)(word.length()/2)));
-  String x = new String(word.substring((int)(word.length()/2)+1));
-  x = reverse(x);
-  return e.equals(x);
+  
 }
 
 
